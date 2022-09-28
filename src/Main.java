@@ -13,7 +13,6 @@ public class Main {
             System.out.println(year + " год не является високосным");
         }
     }
-
     public static void checkPhone(int clientOS, int clientDeviceYear) {
         if (clientOS == 0 && clientDeviceYear >= 2015) {
             System.out.println("Скачайте приложение по ссылке для IOS");
@@ -28,7 +27,6 @@ public class Main {
             System.out.println("Скачайте облегченную версию для Android");
         }
     }
-
     public static int deleveryDistance(int deliveryDistance) {
         int deliveryDays = 0;
         if (deliveryDistance > 20) {
